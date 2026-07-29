@@ -1,4 +1,4 @@
-#Henry Guzmans Git Code
+#Henry Guzmans and Joseph Menzos Git Code for calculator.py
 import math
 
 def add(a,b):
@@ -16,4 +16,4 @@ def logarithm(a, b):
         raise ValueError("Input must be greater than 0")
     return log(b, a)
 def exponent(a, b):
-    return ab
+    return a**b
