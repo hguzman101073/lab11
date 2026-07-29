@@ -21,8 +21,12 @@ def log(a, b):
     try:
         if b<=0:
             raise ValueError("b must be positive")
+        elif a==1:
+            raise ValueError("a can't be 1")
+        elif a<=0:
+            raise ValueError("a must be positive")
         return math.log(b,a)# use math library + raise ValueError
-    except valueError as e:
+    except ValueError as e:
         return e
 
 
